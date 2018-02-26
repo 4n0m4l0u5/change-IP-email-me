@@ -7,16 +7,16 @@ git clone https://github.com/4n0m4l0u5/change-IP-email-me.git
 
 # setup - make changes to auto setup file to suit your needs, directions are in the file itself:
 nano auto_ip_check.sh
-make your changes and save
 
 # OR if you're oldschool, you can use vi:
 vi auto_ip_check.sh
-make your changes and save
 
-# setup -make file executable and run:
+# make your changes and save
+
+# setup - make file executable and run:
 chmod +x auto_ip_check.sh
 ./auto_ip_check.sh
 
-# make sure it works and you're all done
+# make sure it works and you're all done, you should get an initial email the first time it runs... setup also tells you how to add to cron jobs
 
 # check systemlogs for any errors if it is not working
