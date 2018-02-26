@@ -1,6 +1,6 @@
 #!/bin/sh
 #Dynamic IP checker and emailer
-#it does what it says, if you are like me and you are too cheap to buy a static IP address from your ISP but you want to know whenever your WAN IP changes, you can use this! Take that Comcast!
+#it does what it says, if you are like me and you are too cheap to buy a static IP address from your ISP but you want to know whenever your WAN IP changes, you can use this script.
 #written by 4n0m4l0u5 in ubuntu 16.04
 
 
@@ -60,7 +60,7 @@ FILE="/home/USERNAME/Documents/IP_Check/ip.txt"
 #it should email you immediately, or give you some errors if something isnt configured correctly, feel free to troubleshoot or send me an message on github
 
 
-#IP checker and mailer...
+#IP checker and mailer magic...
 
 #check wan ip address and store it into this variable (not your local IP)
 IP_ADD_NEW=$(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//')
