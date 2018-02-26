@@ -14,8 +14,7 @@ vi auto_ip_check.sh
 # make your changes and save
 
 # setup - make file executable and run:
-chmod +x auto_ip_check.sh
-./auto_ip_check.sh
+chmod +x auto_ip_check.sh && ./auto_ip_check.sh
 
 # make sure it works and you're all done, you should get an initial email the first time it runs... setup also tells you how to add to cron jobs
 
