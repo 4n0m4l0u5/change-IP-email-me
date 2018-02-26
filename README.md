@@ -6,17 +6,18 @@ Setup for Ubuntu 16.04, most debian distros should work though. You may need add
 # in a terminal (ctl + alt + t) run the following commands:
 git clone https://github.com/4n0m4l0u5/change-IP-email-me.git
 
-#setup - make changes to auto setup file to suit your needs, directions are in the file itself
-nano auto_ip_check.sh
+#setup - make changes to auto setup file to suit your needs, directions are in the file itself:
+nano auto_ip_check.sh \
 #make your changes and save
 
-or if you're oldschool, you can use vi
-vi auto_ip_check.sh
+or if you're oldschool, you can use vi:
+vi auto_ip_check.sh \
 #make your changes and save
 
-#setup -make file executable and run
-chmod +x auto_ip_check.sh
+#setup -make file executable and run:
+chmod +x auto_ip_check.sh \
 ./auto_ip_check.sh
 
 #make sure it works and you're all done
+
 #check systemlogs for any errors if it is not working
