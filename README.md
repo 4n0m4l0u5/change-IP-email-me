@@ -10,7 +10,7 @@ git clone https://github.com/4n0m4l0u5/change-IP-email-me.git
 nano auto_ip_check.sh
 #make your changes and save
 
-or if your'e oldschool, you can use vi
+or if you're oldschool, you can use vi
 vi auto_ip_check.sh
 #make your changes and save
 
